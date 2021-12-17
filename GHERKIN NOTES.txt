@@ -1,0 +1,19 @@
+SUITE DE PRUEBAS PARA EL SITIO www.saucedemo.com
+
+FEATURE: USER'S LOGIN.
+SCENARIO: El usuario se logea en la plataforma.
+GIVEN:El usuario se encuentra en la login page
+WHEN: El usuario ingresa con credenciales válidas.
+THEN:El usuario ingresa a la plataforma y se muestra pagina inicial de ventas.
+
+FEATURE: MY CART.
+SCENARIO: El usuario desea revisar su carrito de compra.
+GIVEN: El usuario ha seleccionado un producto del listado.
+WHEN: El usuario ha hecho clic/tap en el icono de carrito de compras.
+THEN: El usuario ingresa al carrito de compras visualizando el producto seleccionado.
+
+FEATURE: CHECKOUT YOUR INFORMATION.
+SCENARIO: El usuario ingresa y confirma su informacion de CHECKOUT.
+GIVEN: EL usuario se encuentra en el formulario de checkout your information.
+WHEN: El usuario complementa la informacion solicitada en el formulario de CHECKOUT YOUTR INFORMATION.
+THEN: EL usuario visualiza.
