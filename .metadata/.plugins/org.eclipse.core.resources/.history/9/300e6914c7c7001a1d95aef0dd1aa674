@@ -1,0 +1,122 @@
+<Mapping>
+	<uid id="1">
+	  <dispositivo>Note5</dispositivo>
+	  <id>842554345a525644</id>
+      <PSPackage>com.android.vending</PSPackage>
+      <PSActivity>com.android.vending.AssetBrowserActivity</PSActivity>
+      <PSControl1 name="barraBusqueda">com.android.vending:id/search_bar_hint</PSControl1>
+      <PSControl2 name="inputBusqueda">com.android.vending:id/search_bar_text_input</PSControl2>
+      <PSControl3 name="xPathbtnInstalar">//android.widget.Button[contains(@text,'Instalar')]</PSControl3>
+      <PSControl4 name="btnContinuar">com.android.vending:id/continue_button</PSControl4>
+      <PSControl5 name="xPathbtnAceptar">//android.widget.Button[contains(@text,'Aceptar')]</PSControl5>
+      <PSControl6 name="btnAceptarDatos">com.android.vending:id/footer_placeholder</PSControl6>
+      <PSControl7 name="txtProgreso">com.android.vending:id/download_status</PSControl7>
+      <PSControl8 name="xPathbtnCancelar">//android.widget.Button[contains(@text,'Cancelar')]</PSControl8>
+      <PSControl9 name="RadioBtnDatos">com.android.vending:id/download_now</PSControl9>
+      <TSPackage>com.directoriotigo.hwm</TSPackage>
+      <TSActivity>com.juvomobileinc.tigoshop.ui.splash.SplashActivity</TSActivity>
+      <TSControl1 name="SaldoBilleteraPrincipal">com.directoriotigo.hwm:id/core_balance_internet_card_core_balance_text</TSControl1>
+      <TSControl2 name="SaldoInternetPrincipal">com.directoriotigo.hwm:id/core_balance_internet_card_internet_amount_text</TSControl2>
+      <TSControl3 name="SaldoLlamadasInicialSeg">//android.widget.TextView[@resource-id='com.directoriotigo.hwm:id/balance_amount_label1' and contains(@text,'Segundos')]"</TSControl3>
+      <TSControl4 name="SaldoLlamadasInicialMin">//android.widget.TextView[@resource-id='com.directoriotigo.hwm:id/balance_amount_label1' and contains(@text,'Minutos')]"</TSControl4>
+      <TSControl5 name="TigoShopTextError">com.directoriotigo.hwm:id/core_balance_internet_card_core_balance_text_error</TSControl5>
+      <TSControl6 name="TigoShopLoginBtn">com.directoriotigo.hwm:id/splash_login_button</TSControl6>
+      <TSControl7 name="TigoShop"></TSControl7>
+      <TSControl8 name="SaldoLLamadasInicialHora">//android.widget.TextView[@resource-id='com.directoriotigo.hwm:id/balance_amount_label1' and contains(@text,'Hora')]</TSControl8>
+      <TSControl9 name="SaldoMensajes">//android.widget.TextView[@resource-id='com.directoriotigo.hwm:id/balance_amount_label1' and contains(@text,'Mensajes')]</TSControl9>
+      <TSControl10 name="SaldoLlamadasInicialMinuto">//android.widget.TextView[@resource-id='com.directoriotigo.hwm:id/balance_amount_label2' and contains(@text,'Minutos')]</TSControl10>
+      <DLPackage>com.android.contacts</DLPackage>
+      <DLActivity>com.android.dialer.DialtactsActivity</DLActivity>
+      <DLControl0 name="cero">com.android.contacts:id/zero</DLControl0>
+      <DLControl1 name="uno">com.android.contacts:id/one</DLControl1>
+      <DLControl2 name="dos">com.android.contacts:id/two</DLControl2>
+      <DLControl3 name="tres">com.android.contacts:id/three</DLControl3>
+      <DLControl4 name="cuatro"></DLControl4>
+      <DLControl5 name="cinco">com.android.contacts:id/five</DLControl5>
+      <DLControl6 name="seis"></DLControl6>
+      <DLControl7 name="siete"></DLControl7>
+      <DLControl8 name="ocho"></DLControl8>
+      <DLControl9 name="nueve"></DLControl9>
+      <DLControl10 name="numeral">new UiSelector().textContains(\"#\")</DLControl10>
+      <DLControl11 name="dial"></DLControl11>
+      <DLControl12 name="botonMarcar">com.android.contacts:id/dialButton</DLControl12>
+      <DLControl13 name="botonOk">android:id/button1</DLControl13>
+      <DLControl14 name="respuesta">android:id/message</DLControl14>
+      <DLControl15 name="respuestaInicial">com.android.phone:id/dialog_message</DLControl15>
+      <DLControl16 name="editMenu">com.android.phone:id/input_field</DLControl16>
+      <DLControl17 name="enviarMenu">android:id/button1</DLControl17>
+      <DLControl18 name="enviarNumeroConsulta">com.android.contacts:id/digits</DLControl18>
+      <DLControl19 name="enviarNumeroConsulta2">com.android.contacts:id/writing_buddy_panel</DLControl19>
+      <DLControl20 name="teclado">com.android.contacts:id/floating_action_button</DLControl20>
+      <DLControl21 name="FactoriaAndroidBtnSend">UiSelector().resourceId("com.android.contacts:id/pound")</DLControl21>
+      <DLControl22 name="FactoriaAndroidKeyword">UiSelector().resourceId("com.android.contacts:id/writing_buddy_panel")</DLControl22>
+      <SMPackage>com.android.mms</SMPackage>
+      <SMActivity>com.android.mms.ui.ConversationComposer</SMActivity>
+      <SMControl1 name="FactoriaAndroidc1">//*[contains(@text,'Mensajes')]</SMControl1>
+      <SMControl2 name="FactoriaAndroidActionbar">com.android.mms:id/actionbar_compose_message_list_title</SMControl2>
+      <SMControl3 name="FactoriaAndroidArrow">com.android.mms:id/actionbar_arrow</SMControl3>
+      <SMControl4 name="FactoriaAndroidSearch909">//*[contains(@text,'909')]</SMControl4>
+      <SMControl5 name="FactoriaAndroidUp">android:id/up</SMControl5>
+      <SMControl6 name="FactoriaIndTxt">com.android.mms:id/indicator_text</SMControl6>
+	</uid>
+	<uid id="2">
+	  <dispositivo>Note3</dispositivo>
+	  <id>4d000131b811a089</id>
+	  <PSPackage>com.android.vending</PSPackage>
+      <PSActivity>com.android.vending.AssetBrowserActivity</PSActivity>
+      <PSControl1 name="barraBusqueda">com.android.vending:id/search_bar_hint</PSControl1>
+      <PSControl2 name="inputBusqueda">com.android.vending:id/search_bar_text_input</PSControl2>
+      <PSControl3 name="btnInstalar">//android.widget.Button[contains(@text,'Instalar')]</PSControl3>
+      <PSControl4 name="btnContinuar">com.android.vending:id/continue_button</PSControl4>
+      <PSControl5 name="btnAceptar">//android.widget.Button[contains(@text,'Aceptar')]</PSControl5>
+      <PSControl6 name="btnAceptarDatos">com.android.vending:id/footer_placeholder</PSControl6>
+      <PSControl7 name="txtProgreso">com.android.vending:id/download_status</PSControl7>
+      <PSControl8 name="btnCancelar">//android.widget.Button[contains(@text,'Cancelar')]</PSControl8>
+      <PSControl9 name="RadioBtnDatos">com.android.vending:id/download_now</PSControl9>
+      <TSPackage>com.directoriotigo.hwm</TSPackage>
+      <TSActivity>com.juvomobileinc.tigoshop.ui.splash.SplashActivity</TSActivity>
+      <TSControl1 name="SaldoBilleteraPrincipal">com.directoriotigo.hwm:id/core_balance_internet_card_core_balance_text</TSControl1>
+      <TSControl2 name="SaldoInternetPrincipal">com.directoriotigo.hwm:id/core_balance_internet_card_internet_amount_text</TSControl2>
+      <TSControl3 name="SaldoLlamadasInicialSeg">//android.widget.TextView[@resource-id='com.directoriotigo.hwm:id/balance_amount_label1' and contains(@text,'Segundos')]"</TSControl3>
+      <TSControl4 name="SaldoLlamadasInicialMin">//android.widget.TextView[@resource-id='com.directoriotigo.hwm:id/balance_amount_label1' and contains(@text,'Minutos')]"</TSControl4>
+      <TSControl5 name="TigoShopTextError">com.directoriotigo.hwm:id/core_balance_internet_card_core_balance_text_error</TSControl5>
+      <TSControl6 name="TigoShopLoginBtn">com.directoriotigo.hwm:id/splash_login_button</TSControl6>
+      <TSControl7 name="TigoShop"></TSControl7>
+      <TSControl8 name="SaldoLLamadasInicialHora">//android.widget.TextView[@resource-id='com.directoriotigo.hwm:id/balance_amount_label1' and contains(@text,'Hora')]</TSControl8>
+      <TSControl9 name="SaldoMensajes">//android.widget.TextView[@resource-id='com.directoriotigo.hwm:id/balance_amount_label1' and contains(@text,'Mensajes')]</TSControl9>
+      <TSControl10 name="SaldoLlamadasInicialMinuto">//android.widget.TextView[@resource-id='com.directoriotigo.hwm:id/balance_amount_label2' and contains(@text,'Minutos')]</TSControl10>
+	  <DLPackage>com.android.contacts</DLPackage>
+      <DLActivity>com.android.contacts.activities.DialtactsActivity</DLActivity>
+      <DLControl0 name="cero">com.android.contacts:id/zero</DLControl0>
+      <DLControl1 name="uno">com.android.contacts:id/one</DLControl1>
+      <DLControl2 name="dos">com.android.contacts:id/two</DLControl2>
+      <DLControl3 name="tres">com.android.contacts:id/three</DLControl3>
+      <DLControl4 name="cuatro"></DLControl4>
+      <DLControl5 name="cinco">com.android.contacts:id/five</DLControl5>
+      <DLControl6 name="seis"></DLControl6>
+      <DLControl7 name="siete"></DLControl7>
+      <DLControl8 name="ocho"></DLControl8>
+      <DLControl9 name="nueve"></DLControl9>
+      <DLControl10 name="numeral">new UiSelector().textContains(\"#\")</DLControl10>
+      <DLControl11 name="dial"></DLControl11>
+      <DLControl12 name="botonMarcar">com.android.contacts:id/dialButton</DLControl12>
+      <DLControl13 name="botonOk">android:id/button1</DLControl13>
+      <DLControl14 name="respuesta">android:id/message</DLControl14>
+      <DLControl15 name="respuestaInicial">com.android.phone:id/dialog_message</DLControl15>
+      <DLControl16 name="editMenu">com.android.phone:id/input_field</DLControl16>
+      <DLControl17 name="enviarMenu">android:id/button1</DLControl17>
+	  <DLControl18 name="enviarNumeroConsulta">com.android.contacts:id/digits</DLControl18>
+      <DLControl19 name="enviarNumeroConsulta2">com.android.contacts:id/writing_buddy_panel</DLControl19>
+      <DLControl20 name="teclado">com.android.contacts:id/floating_action_button</DLControl20>
+      <DLControl21 name="FactoriaAndroidBtnSend">UiSelector().resourceId("com.android.contacts:id/pound")</DLControl21>
+      <DLControl22 name="FactoriaAndroidKeyword">UiSelector().resourceId("com.android.contacts:id/writing_buddy_panel")</DLControl22>
+      <SMPackage>com.android.mms</SMPackage>
+      <SMActivity>com.android.mms.ui.ConversationComposer</SMActivity>
+      <SMControl1 name="FactoriaAndroidc1">//*[contains(@text,'Mensajes')]</SMControl1>
+      <SMControl2 name="FactoriaAndroidActionbar">com.android.mms:id/actionbar_compose_message_list_title</SMControl2>
+      <SMControl3 name="FactoriaAndroidArrow">com.android.mms:id/actionbar_arrow</SMControl3>
+      <SMControl4 name="FactoriaAndroidSearch909">//*[contains(@text,'909')]</SMControl4>
+      <SMControl5 name="FactoriaAndroidUp">android:id/up</SMControl5>
+      <SMControl6 name="FactoriaIndTxt">com.android.mms:id/indicator_text</SMControl6>
+	</uid>
+</Mapping>

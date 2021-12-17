@@ -1,0 +1,22 @@
+package com.exameqa.equifax;
+
+import java.util.concurrent.TimeUnit;
+
+import org.junit.Before;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class viewCartTest {
+	 private WebDriver driver;
+
+	 @SuppressWarnings("deprecation")
+	 @Before
+	 public void setUp() {
+		 System.setProperty("webdriver.chrome.driver","./src/test/resources/chromedriver/chromedriver.exe");
+		 driver = new ChromeDriver();
+		 driver.manage().window().maximize();
+		 driver.get("https://www.saucedemo.com/");
+		 driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+	 }
+	
+}

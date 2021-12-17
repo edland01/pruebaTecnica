@@ -1,0 +1,33 @@
+#puerto local
+server.port = 8006
+
+#propiedades para que hibernate cree adecuadamente las instrucciones SQL
+spring.jpa.hibernate.naming.implicit-strategy=org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+#base de datos
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.url=jdbc:postgresql://4.tcp.ngrok.io:12934/SGVP
+spring.datasource.username=postgres
+spring.datasource.password=@Destruccion333
+
+#base de datos Cassandra
+
+spring.data.cassandra.contact-points=6.tcp.ngrok.io
+spring.data.cassandra.port=18144
+spring.data.cassandra.username=superroot
+spring.data.cassandra.password=@Destruccion333
+spring.data.cassandra.keyspace-name=SGPV
+spring.data.cassandra.schema-action=NONE
+spring.data.cassandra.local-datacenter=datacenter1
+
+#Envio de correo
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.protocol=smtp
+spring.mail.username=stefaninielsalvafor@gmail.com
+spring.mail.password=raulcampos2020
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.mail.properties.mail.smtp.starttls.required=true
+spring.mail.properties.mail.smtp.quitwait=false

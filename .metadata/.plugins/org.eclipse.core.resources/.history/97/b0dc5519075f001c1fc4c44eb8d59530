@@ -1,0 +1,51 @@
+package com.exameqa.equifax;
+
+import static org.junit.Assert.assertEquals;
+import java.util.concurrent.TimeUnit;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class LoginSauceTest {
+	 private WebDriver driver;
+
+	 @SuppressWarnings("deprecation")
+	 @Before
+	 public void setUp() {
+		 System.setProperty("webdriver.chrome.driver","./src/test/resources/chromedriver/chromedriver.exe");
+		 driver = new ChromeDriver();
+		 driver.manage().window().maximize();
+		 driver.get("https://www.saucedemo.com/");
+		 driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
+	 }
+	 
+	@Test
+	 public void testLoginPage() {
+		 WebElement userField = driver.findElement(By.xpath("//*[@id=\"user-name\"]"));
+		 WebElement passwordField = driver.findElement(By.xpath("//*[@id=\"password\"]"));
+		 WebElement btnSubmit = driver.findElement(By.xpath("//*[@id=\"login-button\"]"));
+		 //WebDriverWait wait = new WebDriverWait(driver,3);
+		 
+		 userField.clear();
+		 userField.sendKeys("standard_user");
+		 wait.until(null);
+		 passwordField.clear();
+		 passwordField.sendKeys("secret_sauce");
+		 
+		 btnSubmit.click();
+		 
+		 
+		 
+		 assertEquals("https://www.saucedemo.com/inventory.html",driver.getCurrentUrl());
+	 }
+	 
+	 @After
+	 public void tearDown() {
+		 driver.quit();
+	 }
+}
