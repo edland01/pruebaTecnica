@@ -1,9 +1,10 @@
 # pruebaTecnica
 Prueba tecnica equifax
 
-En este repositorio se ha agregado el proyecto que contiene la automatizacion de tres flujos detectados
+En este repositorio se ha agregado el proyecto "qualityAutoExamen"que contiene la automatizacion de tres flujos detectados
+y el cual debe ser importado como proyecto MAVEN desde Eclipse IDE For Developers.
 en el aplicativo web de www.saucedemo.com. En el archivo de texto GHERKIN NOTES.txt se especifica en que consiste cada flujo.
-El proyecto se ha desarrollado en Eclipse IDE y se ha utilizado el arquetipo MAVEN con las respectivas dependencias de Selenium IDE y JUnit.
+El proyecto se ha desarrollado bajo el arquetipo MAVEN con las respectivas dependencias de Selenium IDE y JUnit.
 Destacar tambien que se ha hecho uso del ChromeDrive para dichas automatizaciones.
 
 En el documento que he recibido, se destaca hacer uso de Selenium IDE. Por tanto, se anexa la macro MyExamQAEquifaxSeleniumIDE.SIDE que emula los 3 flujos identificados en el analisis
